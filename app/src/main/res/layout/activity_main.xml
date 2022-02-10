@@ -149,7 +149,7 @@
 
                     <LinearLayout
                         android:id="@+id/hijr_date"
-                        android:layout_marginStart="33dp"
+                        android:layout_marginStart="30dp"
                         android:layout_width="wrap_content"
                         android:orientation="vertical"
                         android:gravity="center"
@@ -173,6 +173,134 @@
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:text="Hijr Date"
+                            android:gravity="center"
+                            android:fontFamily="@font/poppins_regular"
+                            android:textColor="@color/black"/>
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/hijr_tasbih"
+                        android:layout_marginStart="30dp"
+                        android:layout_width="wrap_content"
+                        android:orientation="vertical"
+                        android:gravity="center"
+                        android:layout_height="wrap_content">
+
+                        <RelativeLayout
+                            android:layout_width="50dp"
+                            android:layout_height="50dp"
+                            android:gravity="center"
+                            android:background="@drawable/box1">
+
+                            <ImageView
+                                android:layout_width="24dp"
+                                android:layout_height="24dp"
+                                android:src="@drawable/tasbih" />
+
+                        </RelativeLayout>
+
+                        <TextView
+                            android:layout_marginTop="6dp"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Tasbih"
+                            android:gravity="center"
+                            android:fontFamily="@font/poppins_regular"
+                            android:textColor="@color/black"/>
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/asmaul_husna"
+                        android:layout_marginStart="30dp"
+                        android:layout_width="wrap_content"
+                        android:orientation="vertical"
+                        android:gravity="center"
+                        android:layout_height="wrap_content">
+
+                        <RelativeLayout
+                            android:layout_width="50dp"
+                            android:layout_height="50dp"
+                            android:gravity="center"
+                            android:background="@drawable/box1">
+
+                            <ImageView
+                                android:layout_width="24dp"
+                                android:layout_height="24dp"
+                                android:src="@drawable/allah" />
+
+                        </RelativeLayout>
+
+                        <TextView
+                            android:layout_marginTop="6dp"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Names"
+                            android:gravity="center"
+                            android:fontFamily="@font/poppins_regular"
+                            android:textColor="@color/black"/>
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/hadith"
+                        android:layout_marginStart="30dp"
+                        android:layout_width="wrap_content"
+                        android:orientation="vertical"
+                        android:gravity="center"
+                        android:layout_height="wrap_content">
+
+                        <RelativeLayout
+                            android:layout_width="50dp"
+                            android:layout_height="50dp"
+                            android:gravity="center"
+                            android:background="@drawable/box1">
+
+                            <ImageView
+                                android:layout_width="24dp"
+                                android:layout_height="24dp"
+                                android:src="@drawable/hadith" />
+
+                        </RelativeLayout>
+
+                        <TextView
+                            android:layout_marginTop="6dp"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Hadith"
+                            android:gravity="center"
+                            android:fontFamily="@font/poppins_regular"
+                            android:textColor="@color/black"/>
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/almatsurot"
+                        android:layout_marginStart="30dp"
+                        android:layout_width="wrap_content"
+                        android:orientation="vertical"
+                        android:gravity="center"
+                        android:layout_height="wrap_content">
+
+                        <RelativeLayout
+                            android:layout_width="50dp"
+                            android:layout_height="50dp"
+                            android:gravity="center"
+                            android:background="@drawable/box1">
+
+                            <ImageView
+                                android:layout_width="24dp"
+                                android:layout_height="24dp"
+                                android:src="@drawable/almatsurot" />
+
+                        </RelativeLayout>
+
+                        <TextView
+                            android:layout_marginTop="6dp"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Al-Matsurot"
                             android:gravity="center"
                             android:fontFamily="@font/poppins_regular"
                             android:textColor="@color/black"/>
