@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">Muslim App Bismillah</string>
+    <string name="kurikulum_tarbiyah_desc">mencakup pengembangan, pemeliharaan, penjagaan, pengurusan, penyam- paian ilmu, pemberian petunjuk, bimbingan, penyempurnaan dan perasaan memiliki terhadap anak didik</string>
+    <string name="kurikulum_kepalestinaan">Sejak akhir abad ke-19, wilayah yang disengketakan di Timur Tengah sering menjadi tempat bentrokan dan masing-masing bangsa berusaha mempertahankan wilayahnya sendiri.</string>
+    <string name="konsultasi_syariah_desc">Banyak dari masyarakat yang masih ragu dan bingung tentang hukum dari jual beli saham syariah</string>
+    <string name="undang_ustadz_desc">Undang ustadz untuk medengar kajian-kajian yang disampaikan oleh ustadz-ustadz seputar keislaman</string>
 </resources>
