@@ -530,6 +530,22 @@
 
             </RelativeLayout>
 
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Kajian"
+                android:fontFamily="@font/poppins_medium"
+                android:textColor="@color/black"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="20dp"/>
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/rv_kajian"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                tools:itemCount="3"
+                tools:listitem="@layout/kajian_item"/>
+
         </LinearLayout>
 
     </LinearLayout>
