@@ -15,7 +15,7 @@
             android:layout_width="match_parent"
             android:layout_height="220dp"
             android:background="@color/main_color">
-            
+
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
@@ -25,67 +25,67 @@
                     android:id="@+id/kalender_masehi"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Tuesday, 11 January 2022"
-                    android:fontFamily="@font/poppins_medium"
-                    android:layout_marginTop="30dp"
-                    android:textSize="10sp"
                     android:layout_marginStart="30dp"
-                    android:textColor="@color/white"/>
+                    android:layout_marginTop="30dp"
+                    android:fontFamily="@font/poppins_medium"
+                    android:text="Tuesday, 11 January 2022"
+                    android:textColor="@color/white"
+                    android:textSize="10sp" />
 
                 <TextView
                     android:id="@+id/kalender_hijri"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Jumada II 8, 1443H"
-                    android:fontFamily="@font/poppins_medium"
-                    android:layout_marginTop="5dp"
                     android:layout_marginStart="30dp"
-                    android:textSize="12sp"
-                    android:textColor="@color/white"/>
-                
+                    android:layout_marginTop="5dp"
+                    android:fontFamily="@font/poppins_medium"
+                    android:text="Jumada II 8, 1443H"
+                    android:textColor="@color/white"
+                    android:textSize="12sp" />
+
                 <TextView
                     android:id="@+id/waktu_solat"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:textSize="12sp"
+                    android:layout_marginTop="10dp"
+                    android:fontFamily="@font/poppins_medium"
                     android:text="Dzuhur"
                     android:textAlignment="center"
-                    android:layout_marginTop="10dp"
                     android:textColor="@color/white"
-                    android:fontFamily="@font/poppins_medium"/>
+                    android:textSize="12sp" />
 
                 <TextView
                     android:id="@+id/currentTime"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:textSize="26sp"
+                    android:fontFamily="@font/poppins_medium"
                     android:text="08:02"
                     android:textAlignment="center"
                     android:textColor="@color/white"
-                    android:fontFamily="@font/poppins_medium"/>
+                    android:textSize="26sp" />
 
                 <TextView
                     android:id="@+id/timeBeforeAdzan"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:textSize="12sp"
+                    android:fontFamily="@font/poppins_medium"
                     android:text="-04:00"
                     android:textAlignment="center"
                     android:textColor="@color/white"
-                    android:fontFamily="@font/poppins_medium"/>
+                    android:textSize="12sp" />
 
                 <TextView
                     android:id="@+id/currentLocation"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
+                    android:layout_marginStart="30dp"
                     android:layout_marginTop="5dp"
-                    android:text="Jakarta"
-                    android:textColor="@color/white"
-                    android:fontFamily="@font/poppins_regular"
-                    android:textSize="12sp"
                     android:drawableLeft="@drawable/ic_location"
                     android:drawablePadding="6dp"
-                    android:layout_marginStart="30dp"/>
+                    android:fontFamily="@font/poppins_regular"
+                    android:text="Jakarta"
+                    android:textColor="@color/white"
+                    android:textSize="12sp" />
 
             </LinearLayout>
 
@@ -97,6 +97,93 @@
                 android:layout_alignParentRight="true"/>
 
         </RelativeLayout>
+
+        <LinearLayout
+            android:layout_marginTop="18dp"
+            android:paddingHorizontal="30dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <HorizontalScrollView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fillViewport="true"
+                android:measureAllChildren="false"
+                android:scrollbars="none">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <LinearLayout
+                        android:id="@+id/qibla"
+                        android:layout_width="wrap_content"
+                        android:gravity="center"
+                        android:orientation="vertical"
+                        android:layout_height="wrap_content">
+
+                        <RelativeLayout
+                            android:layout_width="50dp"
+                            android:layout_height="50dp"
+                            android:gravity="center"
+                            android:background="@drawable/box1">
+
+                            <ImageView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:src="@drawable/ic_compass" />
+
+                        </RelativeLayout>
+
+                        <TextView
+                            android:layout_marginTop="6dp"
+                            android:layout_width="50dp"
+                            android:layout_height="wrap_content"
+                            android:text="Qibla"
+                            android:gravity="center"
+                            android:fontFamily="@font/poppins_regular"
+                            android:textColor="@color/black"/>
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/hijr_date"
+                        android:layout_marginStart="33dp"
+                        android:layout_width="wrap_content"
+                        android:orientation="vertical"
+                        android:gravity="center"
+                        android:layout_height="wrap_content">
+
+                        <RelativeLayout
+                            android:layout_width="50dp"
+                            android:layout_height="50dp"
+                            android:gravity="center"
+                            android:background="@drawable/box1">
+
+                            <ImageView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:src="@drawable/ic_calender" />
+
+                        </RelativeLayout>
+
+                        <TextView
+                            android:layout_marginTop="6dp"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Hijr Date"
+                            android:gravity="center"
+                            android:fontFamily="@font/poppins_regular"
+                            android:textColor="@color/black"/>
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+            </HorizontalScrollView>
+
+        </LinearLayout>
 
     </LinearLayout>
 
