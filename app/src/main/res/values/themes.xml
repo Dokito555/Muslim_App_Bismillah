@@ -13,4 +13,14 @@
         <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>
         <!-- Customize your theme here. -->
     </style>
+
+    <style name="Theme.MuslimApp.AppBarOverlay" parent="Theme.MaterialComponents.Light.DarkActionBar">
+        <item name="android:background">@color/white</item>
+    </style>
+
+    <style name="BackgroundCompass">
+        <item name="android:layout_gravity">center</item>
+        <item name="android:src">@drawable/compass_background</item>
+    </style>
+
 </resources>

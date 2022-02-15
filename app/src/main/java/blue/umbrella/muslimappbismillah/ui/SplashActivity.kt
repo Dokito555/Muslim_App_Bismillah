@@ -1,10 +1,10 @@
-package blue.umbrella.muslimappbismillah
+package blue.umbrella.muslimappbismillah.ui
 
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.os.Handler
-import androidx.appcompat.app.ActionBar
+import blue.umbrella.muslimappbismillah.R
 
 class SplashActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
