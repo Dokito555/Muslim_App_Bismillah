@@ -6,7 +6,7 @@
     <androidx.coordinatorlayout.widget.CoordinatorLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        tools:context=".ui.QiblaActivity">
+        tools:context=".ui.qibla.QiblaActivity">
 
         <com.google.android.material.appbar.AppBarLayout
             android:id="@+id/app_bar"

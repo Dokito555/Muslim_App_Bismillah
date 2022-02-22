@@ -12,10 +12,10 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.MuslimAppBismillah">
         <activity
-            android:name=".ui.QiblaActivity"
+            android:name=".ui.qibla.QiblaActivity"
             android:exported="false" />
         <activity
-            android:name=".ui.SplashActivity"
+            android:name=".ui.splash.SplashActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
